@@ -29,7 +29,8 @@ try:
                     break
                 case _:
                     print("Opção inválida.")
-                    break                       
+                    break
+
 except Exception as e:
     print(f"Não foi possível alterar  valor na lista. {e}.")
 

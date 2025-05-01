@@ -15,8 +15,7 @@ try:
         os.system("cls")
         #usuario informa o valor da pesquisa
         pesquisa = input("Informe a cidade a ser pesquisada: ").title()
-
-
+        
         result = cidades.count(pesquisa)
 
         # motra resultado na tela
