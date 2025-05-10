@@ -1,5 +1,7 @@
 usuario = {}
 
+
+
 try:
     # entrada de dados 
     usuario["nome"] = input("informe o nome: ")
@@ -20,7 +22,7 @@ try:
     imc = usuario.get("peso") / usuario.get("altura") ** 2
 
     # exibir valor do imc do usuario
-    print(f"IMC de {usuario.get('nome')}: {imc:.2f}")
+    new_func(usuario, imc)
 
     # exibir o diagnóstico do usuário com base no valor do imc
     if imc <= 18.5:
