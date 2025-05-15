@@ -12,7 +12,7 @@ if __name__ == "__main__":
         if opcao == "1" or opcao == "2" or opcao == "3":
              b = float(input("informe o valor da base: ").replace(",", "."))
              h = float(input("informe o valor da altura: ").replace(",", "."))
-             B = float(input("informe o valor da base maior: ").replace(",", ".")) 
+             
              match opcao:
                  case "1":
                      resultado = calcular_quadrilatero(b, h)
