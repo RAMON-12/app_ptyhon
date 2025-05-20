@@ -11,5 +11,5 @@ def fibonacci(n):
 numero = int(input("Digite o número de Fibonacci que você deseja calcular: "))
 
 # Calcular o número de Fibonacci e exibir o resultado
-resultado = fibo2nacci(numero)
+resultado = fibonacci(numero)
 print(f"O número de Fibonacci de {numero} é: {resultado}")
