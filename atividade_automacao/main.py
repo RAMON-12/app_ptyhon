@@ -23,3 +23,4 @@ p.typewrite(f"git commit -m '{msg_commit}'")
 p.press("enter")
 p.typewrite("git push")
 p.press("enter")
+
